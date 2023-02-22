@@ -1,0 +1,12 @@
+# 手机号登录
+mobile_login:
+  method: get
+  url: testing-ip/front/api/mobileLogin/loginByMobile
+  params:
+    unionid: $unionid
+    openid: $openid
+    nickName: $nickName
+    gender: $gender
+    avatarUrl: $avatarUrl
+    parentId: $parentId
+    loginType: $loginType

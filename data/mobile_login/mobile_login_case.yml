@@ -1,0 +1,8 @@
+# 手机号登录
+mobile_login:
+  ids:
+    - 已注册的用户微信登录
+  case:
+    - data: {unionid: None, openid: oKk4C49DN8gf7y8G0vxcYj0kFFDg, nickName: '安然', gender: 0, avatarUrl: 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTItSGQRE3CwHuIH5mvjOYja8ktIsLFq37Eiba3wXXQLmqmicXkolIyxia6uTlvktz97AeSrZicIuPvIGg/132', parentId: None, loginType: wx}
+      eq: {"error_code":0,"error_msg":"请求成功","data":{'uid': 1432, 'token': 'e4b03700-d445-4047-97ae-5c0dc4164174', 'code': '0', 'isBind': True}}
+

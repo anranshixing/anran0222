@@ -1,0 +1,17 @@
+# 删除用户的竞拍商品
+delete_user_auction_goods:
+  method: get
+  url: testing-ip/api/auctionseckill/deleteUserAuctionGoods
+  params:
+    goodsId: $goodsId
+    token: $token
+    uid: $uid
+
+# 竞拍秒杀-删除用户预约
+delete_user_subscribe:
+  method: get
+   url: testing-ip/api/auctionseckill/deleteUserSubscribe
+   params:
+     id: $id
+     token: $token
+     uid: $uid

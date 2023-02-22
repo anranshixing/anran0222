@@ -1,0 +1,5 @@
+2022-05-13 11:18:03,406-INFO-wrapper.py-test-日志信息:------开始测试：手机号登录------
+2022-05-13 11:18:03,468-INFO-base_api.py-test-日志信息:api模板改变的参数为：{'unionid': 'None', 'openid': 'oKk4C49DN8gf7y8G0vxcYj0kFFDg', 'nickName': '安然', 'gender': 0, 'avatarUrl': 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTItSGQRE3CwHuIH5mvjOYja8ktIsLFq37Eiba3wXXQLmqmicXkolIyxia6uTlvktz97AeSrZicIuPvIGg/132', 'parentId': 'None', 'loginType': 'wx'}
+2022-05-13 11:18:03,469-INFO-base_api.py-test-日志信息:修改后的请求为：{'method': 'get', 'url': 'https://ktstest.xnwxw.com.cn/front/api/mobileLogin/loginByMobile', 'params': {'unionid': None, 'openid': 'oKk4C49DN8gf7y8G0vxcYj0kFFDg', 'nickName': '安然', 'gender': '0', 'avatarUrl': 'https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTItSGQRE3CwHuIH5mvjOYja8ktIsLFq37Eiba3wXXQLmqmicXkolIyxia6uTlvktz97AeSrZicIuPvIGg/132', 'parentId': None, 'loginType': 'wx'}}
+2022-05-13 11:18:03,760-INFO-base_api.py-test-日志信息:响应为：{"error_code":0,"error_msg":"请求成功","data":{"uid":1190,"token":"9102aa6a-0622-4c8f-aa69-737a060de8bd","code":"0","isBind":true}}
+2022-05-13 11:18:03,760-INFO-wrapper.py-test-日志信息:------测试通过------
